@@ -1,0 +1,1341 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+
+:root {
+  --line-spacing: 2em;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  font-family: "Fraunces", serif;
+}
+
+.hero-bg {
+  width: 100%;
+  background-image: url(../images/mobile/image-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 4em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mobile-menu {
+  cursor: pointer;
+}
+
+.hide-mobile {
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+
+.close-nav {
+  text-align: right;
+  background-color: none;
+  margin-top: 0.5em;
+}
+.close-nav img {
+  cursor: pointer;
+  width: 1em;
+  margin-right: 1em;
+}
+
+nav {
+  margin-top: 5em;
+}
+nav ul {
+  overflow: hidden;
+  list-style-type: none;
+  position: absolute;
+  width: 90%;
+  top: 0;
+  right: 0;
+  margin-top: 1em;
+  margin-right: 1em;
+  text-align: center;
+  background: white;
+  height: 50vh;
+  z-index: 7;
+  font-family: "Barlow", sans-serif;
+}
+
+nav ul li a {
+  width: 70%;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1em;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-family: "Barlow" sans-serif;
+  color: hsl(207, 4%, 54%);
+}
+
+nav ul li a:hover {
+  background-color: hsl(210, 4%, 67%);
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+}
+
+#contact-cta a {
+  border: none;
+  background: hsl(51, 100%, 49%);
+  border-radius: 3em;
+  color: rgb(5, 3, 3);
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 900;
+  padding: 13px 20px;
+  width: 40%;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#contact-cta a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#contact-cta a span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+
+#contact-cta a :hover span {
+  padding-right: 15px;
+}
+
+#contact-cta a:hover span:after {
+  opacity: 5;
+  right: 2px;
+}
+
+/*header text of creative*/
+
+.header-text {
+  font-family: "Fraunces", serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 70px;
+  border: black;
+  border-width: 4px;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+}
+
+.arrow-head {
+  padding-top: 80px;
+  margin-top: 9px;
+}
+.arrow {
+  position: relative;
+  bottom: 0.65em;
+  width: 1em;
+}
+
+*/ section {
+  width: 100%;
+  background-color: rgb(248, 250, 250);
+}
+.container {
+  margin: 0px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.column-1 {
+  padding: 1.5em;
+  text-align: center;
+  margin: 0.7em;
+}
+.text-subtitle {
+  margin: 0.7em;
+  font-size: 2em;
+  font-family: "Fraunces", serif;
+  padding: 1px;
+  margin-bottom: 0.5em;
+  white-space: initial;
+}
+
+.subhead {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: hsl(232, 10%, 55%);
+  line-height: var(--line-spacing);
+  margin-bottom: 2em;
+}
+.column-2 {
+  width: 100%;
+}
+.secondary-cta {
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+
+.secondary-cta::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 0.5em;
+  background-color: hsl(51, 100%, 49%);
+  top: 0.8em;
+  opacity: 0.5;
+  z-index: -1;
+}
+.egg-cta {
+  width: 100%;
+}
+.egg-cta-2 {
+  display: none;
+}
+/*third section */
+.design-section {
+  width: 100%;
+}
+.container-2 {
+  width: 100%;
+  margin: 0px;
+}
+.column-3 {
+  width: 100%;
+}
+.pink-glass {
+  width: 100%;
+}
+/*end of the pink glass section*/
+
+.column-4 {
+  padding: 1.5em;
+  text-align: center;
+  margin: 0.7em;
+}
+.text-subtitle2 {
+  margin: 0.3em;
+  font-size: 2em;
+  font-family: "Fraunces", serif;
+  padding: 1px;
+  margin-bottom: 0.5em;
+  white-space: initial;
+}
+.subhead-2 {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: hsl(232, 10%, 55%);
+  line-height: var(--line-spacing);
+  margin-bottom: 2em;
+}
+.column-4.secondary-cta {
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+.column-4 .secondary-cta::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 0.3em;
+  background-color: hsl(7, 99%, 70%);
+  top: 0.8em;
+  opacity: 0.5;
+  z-index: -1;
+}
+/*standout column*/
+
+/*4th section with the design*/
+.design-1 {
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+  margin-top: -1em;
+}
+.graphic {
+  width: 100%;
+}
+.graphic-2 {
+  display: none;
+}
+.graphic-text {
+  text-align: center;
+  font-family: "Fraunces", serif;
+  text-transform: capitalize;
+  color: hsl(167, 40%, 24%);
+  font-size: 2em;
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  transform: translate(-20%, 30%);
+}
+.design-text {
+  text-align: center;
+  color: hsl(166, 19%, 27%);
+  margin-top: 1em, 6em;
+  margin-right: 0.5em;
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  line-height: var(--line-spacing);
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.photography-2 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-top: -1em;
+}
+.blue-photo {
+  width: 100%;
+}
+.blue-photo-2 {
+  display: none;
+}
+.photography {
+  text-align: center;
+  font-family: "Fraunces", serif;
+  text-transform: capitalize;
+  color: hsl(198, 62%, 26%);
+  font-size: 2em;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+}
+.photo-text {
+  text-align: center;
+  position: absolute;
+  font-family: "Barlow", sans-serif;
+  top: 70%;
+  left: 5%;
+  color: hsl(198, 62%, 26%);
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 1.5em;
+  line-height: var(--line-spacing);
+  margin-right: 0.5em;
+}
+
+/* this is the client testimonial section*/
+
+.testimonial-section {
+  width: 100;
+  background-color: rgb(248, 250, 250);
+}
+.container-4 {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 4em;
+}
+.container-4 h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: hsl(210, 4%, 67%);
+  line-height: 1em;
+  letter-spacing: 4px;
+  font-size: 1.3em;
+  font-family: "Fraunces", serif;
+  padding-top: 4em;
+}
+.container-4 ul {
+  list-style-type: none;
+}
+.container-4 li {
+  text-align: center;
+  color: hsl(213, 9%, 39%);
+  line-height: var(--line-spacing);
+  font-weight: 600;
+  padding: 1.5em 0;
+}
+.user-testimonial {
+  width: 25%;
+  border-radius: 50%;
+}
+.container-4 ul li blockquote {
+  margin-left: 2em;
+  margin: 2em;
+  color: hsl(232, 10%, 55%);
+  font-family: "Barlow", sans-serif;
+}
+.container-4 ul li cite {
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 0.4em;
+  font-size: 1em;
+  font-family: "Fraunces", serif;
+}
+.container-4 ul li h5 {
+  text-transform: capitalize;
+  color: hsl(232, 10%, 55%);
+  font-family: "Barlow", sans-serif;
+  font-size: 0.9em;
+}
+/* the services portfolio*/
+.container-5 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+.portfolio-1 {
+  width: 100%;
+}
+.image-5 {
+  width: 100%;
+  margin-top: -1em;
+  margin-bottom: -1em;
+}
+
+.ending {
+  width: 100%;
+  background-color: hsl(167, 33%, 24%);
+  text-align: center;
+  padding-top: 4em;
+}
+.ending-logo {
+  width: 100%;
+  margin-bottom: -1em;
+}
+
+.ending-nav {
+  text-align: center;
+  width: 100%;
+  color: hsl(167, 63%, 75%);
+}
+.ending-nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3em;
+}
+
+.ending-nav ul li a {
+  color: hsl(167, 40%, 24%);
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.ending-nav ul li a:hover {
+  color: black;
+}
+.bottom {
+  width: 100%;
+}
+.social-icon ul li a {
+  text-decoration: none;
+}
+.social-icon ul li a:hover {
+  background-color: black;
+  opacity: 0.6;
+  z-index: -1;
+  width: 10px;
+  height: 3px;
+}
+.social-icon {
+  width: 70%;
+  text-align: center;
+  padding-bottom: 2.5em;
+}
+.social-icon ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 40%;
+}
+
+hr {
+  height: 1px;
+  background-color: #25564b;
+  border: none;
+  margin: 1em 0;
+}
+
+.author {
+  color: hsl(167, 40%, 24%);
+  font-size: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.author-tag ul li a {
+  color: hsl(167, 40%, 24%);
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 100;
+  text-align: center;
+}
+.author-tag ul li a:hover {
+  color: black;
+}
+.author-tag ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    background: url(../images/desktop/image-header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 10em;
+    width: 100%;
+  }
+
+  nav {
+    margin-top: 1em;
+  }
+  nav ul {
+    overflow: hidden;
+    list-style-type: none;
+    position: absolute;
+    width: 90%;
+    top: 0;
+    right: 0;
+    margin-top: 1em;
+    margin-right: 1em;
+    text-align: center;
+    background: white;
+    height: 50vh;
+    z-index: 7;
+  }
+
+  nav ul li a {
+    width: 70%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: "Barlow" sans-serif;
+    color: hsl(207, 4%, 54%);
+  }
+
+  nav ul li a:hover {
+    background-color: hsl(210, 4%, 67%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+  }
+
+  #contact-cta a {
+    border: none;
+    background: hsl(51, 100%, 49%);
+    border-radius: 3em;
+    color: rgb(5, 3, 3);
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 900;
+    padding: 13px 20px;
+    width: 40%;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  #contact-cta a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  #contact-cta a span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.5s;
+  }
+
+  #contact-cta a :hover span {
+    padding-right: 15px;
+  }
+
+  #contact-cta a:hover span:after {
+    opacity: 5;
+    right: 2px;
+  }
+
+  .close-nav {
+    text-align: right;
+    background-color: none;
+    margin-top: 0.5em;
+  }
+  .close-nav img {
+    cursor: pointer;
+    width: 1em;
+    margin-right: 1em;
+  }
+  .header-text {
+    font-family: "Fraunces", serif;
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 70px;
+    border: black;
+    border-width: 4px;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+  }
+
+  .arrow-head {
+    padding-top: 80px;
+    margin-top: 9px;
+  }
+  .arrow {
+    position: relative;
+    bottom: 0.65em;
+    width: 0.5em;
+  }
+
+  .design-1 {
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+    margin-top: -1em;
+  }
+  .graphic {
+    width: 100%;
+    min-height: 50%;
+  }
+  .graphic-2 {
+    display: none;
+  }
+  .graphic-text {
+    text-align: center;
+    font-family: "Fraunces", serif;
+    text-transform: capitalize;
+    color: hsl(167, 40%, 24%);
+    font-size: 2em;
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    transform: translate(-20%, 30%);
+  }
+  .design-text {
+    text-align: center;
+    color: hsl(166, 19%, 27%);
+    margin-top: 1em, 6em;
+    margin-right: 0.5em;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    line-height: var(--line-spacing);
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .photography-2 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: -1em;
+  }
+  .blue-photo {
+    width: 100%;
+  }
+  .blue-photo-2 {
+    display: none;
+  }
+  .photography {
+    text-align: center;
+    font-family: "Fraunces", serif;
+    text-transform: capitalize;
+    color: hsl(198, 62%, 26%);
+    font-size: 2em;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+  }
+  .photo-text {
+    text-align: center;
+    position: absolute;
+    font-family: "Barlow", sans-serif;
+    top: 70%;
+    left: 5%;
+    color: hsl(198, 62%, 26%);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1.5em;
+    line-height: var(--line-spacing);
+    margin-right: 0.5em;
+  }
+
+  .author {
+    text-align: center;
+  }
+
+  .author-tag ul li a {
+    text-align: center;
+  }
+
+  .author-tag ul {
+    width: 100%;
+    text-align: center;
+    padding: 0 5em;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .hero-section {
+    background: url(../images/mobile/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 5em;
+    width: 100%;
+  }
+
+  nav {
+    margin-top: 1em;
+  }
+  nav ul {
+    overflow: hidden;
+    list-style-type: none;
+    position: absolute;
+    width: 90%;
+    top: 0;
+    right: 0;
+    margin-top: 1em;
+    margin-right: 1em;
+    text-align: center;
+    background: white;
+    height: 50vh;
+    z-index: 7;
+  }
+
+  nav ul li a {
+    width: 70%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: "Barlow" sans-serif;
+    color: hsl(207, 4%, 54%);
+  }
+
+  nav ul li a:hover {
+    background-color: hsl(210, 4%, 67%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+  }
+
+  #contact-cta a {
+    border: none;
+    background: hsl(51, 100%, 49%);
+    border-radius: 3em;
+    color: rgb(5, 3, 3);
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 900;
+    padding: 13px 20px;
+    width: 40%;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  #contact-cta a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  #contact-cta a span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.5s;
+  }
+
+  #contact-cta a :hover span {
+    padding-right: 15px;
+  }
+
+  #contact-cta a:hover span:after {
+    opacity: 5;
+    right: 2px;
+  }
+
+  .close-nav {
+    text-align: right;
+    background-color: none;
+    margin-top: 0.5em;
+  }
+  .close-nav img {
+    cursor: pointer;
+    width: 1em;
+    margin-right: 1em;
+  }
+  .header-text {
+    font-family: "Fraunces", serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 70px;
+    border: black;
+    border-width: 4px;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+  }
+
+  .arrow-head {
+    padding-top: 80px;
+    margin-top: 9px;
+  }
+  .arrow {
+    position: relative;
+    bottom: 0.65em;
+    width: 1em;
+  }
+
+  .author {
+    text-align: center;
+  }
+
+  .author-tag ul li a {
+    text-align: center;
+  }
+
+  .author-tag ul {
+    width: 100%;
+    text-align: center;
+    padding: 0 5em;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .hero-bg {
+    width: 100%;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+  }
+  header {
+    margin-top: 1em;
+    padding: 0 1em;
+  }
+  .close-nav {
+    text-align: right;
+    background-color: none;
+    margin-top: 0.5em;
+  }
+  .close-nav img {
+    cursor: pointer;
+    width: 1em;
+    margin-right: 1em;
+  }
+
+  nav {
+    margin-top: 1em;
+  }
+  .header-text {
+    position: relative;
+    bottom: 3.5em;
+    font-size: 3em;
+    margin: auto;
+  }
+  .arrow-head {
+    padding-top: 90px;
+    margin-top: 11px;
+  }
+  section {
+    min-height: 200px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .egg-cta-2 {
+    width: 100%;
+  }
+  .column-1 {
+    width: 100%;
+    padding: 6em 5.4em;
+  }
+  .text-subtitle {
+    text-align: justify;
+    font-size: 2.5em;
+    margin-left: -0.1em;
+  }
+  .subhead {
+    text-align: justify;
+    margin: 2 0.5em 0;
+  }
+  .secondary-cta {
+    text-align: justify;
+  }
+  .container-2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .column-4 {
+    width: 100%;
+    padding: 6em 3.5em;
+  }
+  .text-subtitle2 {
+    font-size: 2.5em;
+    text-align: justify;
+  }
+  .subhead-2 {
+    text-align: justify;
+    margin: 0.5em;
+  }
+  .design-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .design-1 {
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+    margin-top: -1em;
+  }
+  .graphic {
+    display: none;
+  }
+  .graphic-2 {
+    display: block;
+    width: 100%;
+  }
+  .blue-photo {
+    display: none;
+  }
+  .blue-photo-2 {
+    display: block;
+    width: 100%;
+  }
+  .testimonial-section {
+    width: 100%;
+  }
+  .container-4 h2 {
+    padding: 5em 0;
+  }
+  .container-4 ul {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+  }
+  .container-4 li {
+    text-align: center;
+    color: hsl(213, 9%, 39%);
+    line-height: var(--line-spacing);
+    font-weight: 600;
+    padding: 1.5em 0;
+  }
+  .user-testimonial {
+    width: 20%;
+    border-radius: 50%;
+  }
+  .container-4 ul li blockquote {
+    margin-left: 2em;
+    margin: 2em;
+    padding: 2em;
+    color: hsl(232, 10%, 55%);
+  }
+  .container-5 {
+    display: flex;
+  }
+  .ending {
+    width: 100%;
+  }
+  .ending-nav ul {
+    width: 30%;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .social-icon ul {
+    width: 60%;
+    margin: auto;
+  }
+  .hide-mobile {
+    display: block;
+  }
+  .hide-desktop {
+    display: none;
+  }
+  .exit-nav {
+    display: none;
+  }
+  nav ul {
+    position: inherit;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    width: 70%;
+    margin-left: auto;
+    margin-top: -1.8em;
+    padding-right: 1em;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    color: #f2f2f2;
+    background: inherit;
+    text-align: right;
+    padding: 1em 2em;
+  }
+
+  nav ul li a:hover {
+    color: black;
+    background-color: inherit;
+    width: 100%;
+  }
+  .header-menu .logo {
+    position: inherit;
+    margin-left: 2em;
+    margin-top: 0.5em;
+  }
+
+  #contact-cta a {
+    border: none;
+    background: white;
+    border-radius: 3em;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 15px 30px;
+    width: 100%;
+    transition: all 0.5s;
+    margin-top: 0.5em;
+  }
+  #contact-cta a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  #contact-cta a span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.5s;
+  }
+
+  #contact-cta a :hover span {
+    padding-right: 15px;
+  }
+
+  #contact-cta a:hover span:after {
+    opacity: 5;
+    right: 2px;
+  }
+}
+
+@media only screen and (min-width: 1220px) {
+  .hero-bg {
+    width: 100%;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 4em;
+  }
+  header {
+    margin-top: 2em;
+    padding: 0 1.5em;
+  }
+  .close-nav {
+    text-align: right;
+    background-color: none;
+    margin-top: 0.5em;
+  }
+  .close-nav img {
+    cursor: pointer;
+    width: 1em;
+    margin-right: 1em;
+  }
+
+  nav {
+    margin-top: 1em;
+  }
+  .header-text {
+    position: relative;
+    bottom: 3.5em;
+    font-size: 3.5em;
+    margin: auto;
+  }
+  .arrow-head {
+    padding-top: 90px;
+    margin-top: 9px;
+  }
+  .arrow {
+    position: relative;
+    top: -1em;
+    width: 0.5em;
+  }
+  section {
+    min-height: 200px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .egg-cta-2 {
+    width: 100%;
+  }
+  .column-1 {
+    width: 100%;
+    padding: 6em 5.4em;
+  }
+  .text-subtitle {
+    text-align: justify;
+    font-size: 2.5em;
+    margin-left: -0.1em;
+  }
+  .subhead {
+    text-align: justify;
+    margin: 2em 0.5em;
+  }
+  .secondary-cta {
+    text-align: justify;
+  }
+  .container-2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .column-4 {
+    width: 100%;
+    padding: 6em 5.4em;
+  }
+  .text-subtitle2 {
+    font-size: 2.5em;
+    text-align: justify;
+  }
+  .subhead-2 {
+    text-align: justify;
+    margin: 2em 0.5em;
+    letter-spacing: normal;
+  }
+  .design-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .design-1 {
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+    margin-top: -1em;
+  }
+  .graphic {
+    display: none;
+  }
+  .graphic-2 {
+    display: block;
+    width: 100%;
+  }
+  .blue-photo {
+    display: none;
+  }
+  .blue-photo-2 {
+    display: block;
+    width: 100%;
+  }
+  .testimonial-section {
+    width: 100%;
+  }
+  .container-4 h2 {
+    padding: 5em 0;
+  }
+  .container-4 ul {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+  }
+  .container-4 li {
+    text-align: center;
+    color: hsl(213, 9%, 39%);
+    line-height: var(--line-spacing);
+    font-weight: 600;
+    padding: 1.5em 0;
+  }
+  .user-testimonial {
+    width: 20%;
+    border-radius: 50%;
+  }
+  .container-4 ul li blockquote {
+    margin-left: 2em;
+    margin: 2em;
+    padding: 2em;
+    color: hsl(232, 10%, 55%);
+  }
+  .container-5 {
+    display: flex;
+  }
+  .ending {
+    width: 100%;
+  }
+  .ending-nav ul {
+    width: 30%;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .social-icon ul {
+    width: 60%;
+    margin: auto;
+  }
+  .hide-mobile {
+    display: block;
+  }
+  .hide-desktop {
+    display: none;
+  }
+  .exit-nav {
+    display: none;
+  }
+  nav ul {
+    position: inherit;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    width: 55%;
+    margin-left: auto;
+    margin-top: -1.8em;
+    padding-right: 1em;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    color: #f2f2f2;
+    background: inherit;
+    text-align: right;
+    padding: 1em 2em;
+  }
+
+  nav ul li a:hover {
+    color: black;
+    background-color: inherit;
+    width: 100%;
+  }
+  .header-menu .logo {
+    position: inherit;
+    margin-left: 2em;
+    margin-top: 0.5em;
+  }
+  #contact-cta a {
+    border: none;
+    background: white;
+    border-radius: 3em;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 15px 30px;
+    padding-right: 35px;
+    transition: all 0.5s;
+    margin-top: 0.5em;
+  }
+
+  header.header-image {
+    width: 100%;
+    position: cover;
+  }
+
+  #contact-cta a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  #contact-cta a span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.5s;
+  }
+
+  #contact-cta a :hover span {
+    padding-right: 15px;
+  }
+
+  #contact-cta a:hover span:after {
+    opacity: 5;
+    right: 2px;
+  }
+}

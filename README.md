@@ -30,11 +30,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![active mobile desgin](./images/active-mobile)
-![desktop desgin](./images/desktop-desgin)
-![Tablet desgin](./images/tablet-design)
-![mobile desgin](./images/mobile-desgin)
+![active mobile desgin](images/active-mobile.png)
+![desktop desgin](images/desktop-design.png)
+![Tablet desgin](images/tablet-design.png)
+![mobile desgin](images/mobile-screenshot.png)
 
 ### Links
 

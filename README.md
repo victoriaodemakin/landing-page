@@ -33,7 +33,6 @@ Users should be able to:
 ![active mobile desgin](images/active-mobile.png)
 ![desktop desgin](images/desktop-design.png)
 ![Tablet desgin](images/tablet-design.png)
-![mobile desgin](images/mobile-screenshot.png)
 
 ### Links
 
